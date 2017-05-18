@@ -1,0 +1,202 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Барбершоп Бородинский</title>
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="icon" href="/img/favicon.ico" type="image/ico">   
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic" rel="stylesheet">
+  </head>
+  <body class="inner-page">
+     <header class="page-header">
+      <h1 class="visually-hidden">Барбершоп «Бородинский» — истинно мужская классика</h1>
+      <div class="page-header__logo">
+        <picture>
+          <source media="(min-width: 1200px)" srcset="img/icons/logotype-desktop.svg">
+          <source media="(min-width: 768px)" srcset="img/icons/logotype-tablet.svg">
+          <img src="img/icons/logotype-mobile.svg" width="370" height="153" alt="Барбершоп Бородинский">
+        </picture>
+      </div>    
+     <nav class="main-nav main-nav--closed main-nav--nojs">
+      <button class="main-nav__toggle" type="button">Открыть меню</button>
+
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__items">
+          <li class="main-nav__item "><a href="index.html">Главная</a></li>
+          <li class="main-nav__item "><a href="photo.html ">Наши работы</a></li>
+          <li class="main-nav__item main-nav__item--active"><a >Записаться</a></li>
+          <li class="main-nav__item"><a href="">Контакты</a></li>
+          <li class="main-nav__item"><a href="">HTML Academy</a></li>
+        </ul>
+
+        <ul class="main-nav__user-items">
+          <li class="main-nav__user-item"><a class="main-nav__user-login" href="#" title="Войти">Вход
+            <svg class="login-icon" width="16px" height="16px">
+              <use  xlink:href="#login-icon"/>
+            </svg>
+            </a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+    <section class="page-title">
+    <svg class="page-title--reverse-triangle">
+      <use  xlink:href="#page-title--reverse-triangle"/>
+    </svg>
+        <div class="page-title__wrapper">
+          <h1 class="page-title__text">Запись на стрижку</h1>
+          <a class="page-title__to-main btn" href="index.html">На главную</a>
+        </div>
+    </section>
+    <section class="form-block">
+     <div class="form-block__wrapper">
+      <form class="form-block__content"  action="https://echo.htmlacademy.ru/" method="post">
+       <div class="form-block__bio">
+        <input class="form-block__value" type="text" name="surname" placeholder="Фамилия" id="surname" >
+        <label for="surname"></label>
+        <input class="form-block__value" type="text" name="name" placeholder="Имя" id="name" >
+        <label for="name"></label>
+        <input class="form-block__value" type="text" name="middlename" placeholder="Отчество" id="middlename" >
+        <label for="middlename"></label>
+       </div>
+       
+       <div class="form-block__contacts">
+        <input class="form-block__value" type="tel" name="tel" placeholder="Контактный телефон" id="tel">
+        <label for="tel"></label>
+        <input class="form-block__value" type="email" name="email" placeholder="Контактный email" id="email" >
+        <label for="email"></label>
+      </div>
+       
+        <textarea class="form-block__value" rows="5" placeholder="Доп. информация для мастера" ></textarea>
+        
+        <section class="model-beard">
+          <div class="model-beard__subtitle">
+            <h2 class="model-beard__content">Выберите модель бороды:</h2>
+          </div>
+          <input type="radio" name="typebeard" id="typebeard-1" checked>
+          <input type="radio" name="typebeard" id="typebeard-2">
+          <input type="radio" name="typebeard" id="typebeard-3">
+          <input type="radio" name="typebeard" id="typebeard-4">
+          <input type="radio" name="typebeard" id="typebeard-5">
+          <div class="model-beard__controls">
+            <label class="model-beard__radiobeard model-beard--radiobeard-1"  for="typebeard-1">адмирал
+    <svg class="icon-beard-1">
+      <use  xlink:href="#beard-1"/>
+    </svg>
+            </label>
+            <label class="model-beard__radiobeard model-beard--radiobeard-2"  for="typebeard-2">лесоруб
+                <svg class="icon-beard-2">
+      <use  xlink:href="#beard-2"/>
+    </svg>
+            </label>
+            <label class="model-beard__radiobeard model-beard--radiobeard-3"  for="typebeard-3">полярник
+          <svg class="icon-beard-3">
+      <use  xlink:href="#beard-3"/>
+    </svg>
+            </label>
+            <label class="model-beard__radiobeard model-beard--radiobeard-4"  for="typebeard-4">боярин
+        <svg class="icon-beard-4">
+      <use  xlink:href="#beard-4"/>
+    </svg>  
+            </label>
+            <label class="model-beard__radiobeard model-beard--radiobeard-5"  for="typebeard-5">мудрец
+              <svg class="icon-beard-5">
+      <use  xlink:href="#beard-5"/>
+    </svg>       
+            </label>
+          </div>    
+        </section>
+        <section class="bonus-services">
+         <div class="bonus-services__subtitle">
+            <h2 class="bonus-services__content">Дополнительные услуги</h2>
+          </div>
+           <input type="checkbox" name="additional-1" id="additional-1" checked>
+          <input  type="checkbox" name="additional-2" id="additional-2" checked>
+          <input type="checkbox" name="additional-3" id="additional-3">
+          <input type="checkbox" name="additional-4" id="additional-4">
+          <input type="checkbox" name="additional-5" id="additional-5">
+          <input  type="checkbox" name="additional-6" id="additional-6">
+          <div class="bonus-services__controls">
+            <label class="bonus-services__additional bonus-services__additional-1"  for="additional-1">Подкрасить бороду</label>
+             <label class="bonus-services__additional bonus-services__additional-2"  for="additional-2">Накрутить усы</label>
+            <label class="bonus-services__additional bonus-services__additional-3"  for="additional-3">Причесать бороду</label>
+            <label class="bonus-services__additional bonus-services__additional-4"  for="additional-4">Подровнять виски</label>
+            <label class="bonus-services__additional bonus-services__additional-5"  for="additional-5">Убрать седину</label>
+            <label class="bonus-services__additional bonus-services__additional-6"  for="additional-6">Отполировать лысину</label>
+          </div>
+        </section>
+        <button class="form-block__submit" type="submit" >Отправить заявку</button>
+      </form>
+      </div>
+    <svg class="form-block--triangle">
+      <use  xlink:href="#form-block--triangle"/>
+    </svg>
+    </section>
+     <footer class="page-footer">
+      <div class="page-footer__wrapper">
+        <p class="page-footer__contacts">
+          <b>Барбершоп «Бородинский»</b>
+          г. Санкт-Петербург, ул. Большая Конюшенная 19/8
+          <a href="tel:+78125556666"><span class="page-footer__contacts-hidden">Тел.:</span>+7(812) 555-66-66</a>
+        </p>
+        <p class="page-footer__social">
+          <b>Давайте дружить</b>
+            <a class="social-link social-link--vk" href="https://vk.com/htmlacademy">
+            Мы в Вконтакте
+            <svg class="vk-icon">
+              <use  xlink:href="#vk-icon"/>
+            </svg>
+            </a>
+            <a class="social-link social-link--fb" href="https://www.facebook.com/htmlacademy">Мы в Фейсбукe
+            <svg class="fb-icon">
+              <use  xlink:href="#fb-icon"/>
+            </svg> 
+                 </a>
+                  <a class="social-link social-link--insta" href="https://www.instagram.com/htmlacademy">Мы в Инстаграме 
+               <svg class="insta-icon">
+              <use  xlink:href="#insta-icon"/>
+            </svg>
+            </a>
+        </p>
+      <p class="page-footer__copyright">
+        <b>Разработано:</b>
+        <a class="page-footer__copyright-link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+      </p>
+ 
+      </div>
+    </footer>
+    <div class="popup-room">
+     <h2 class="popup-room__title">Личный кабинет</h2>
+     <p class="popup-room__subtitle">Введите свой логин и пароль, чтобы войти</p>
+     <form class="popup-room__content" action="https://echo.htmlacademy.ru/" method="post">
+    <input class="popup-room__value" type="text" name="login" placeholder="Логин" id="login">
+    <label for="login"></label>
+    <input class="popup-room__value" type="password" name="password" placeholder="Пароль" id="password">
+        <label class="popup-room-password" for="name"></label>
+    <input  type="checkbox" name="remember"  id="remember">
+      
+        <label class="popup-room__remember" for="remember">Запомни меня</label>
+     
+        <a class="popup-room__forgot" href="#">Я забыл пароль!</a>
+        <button type="submit" class="popup-room__enter">Войти <span>в личный кабинет</span></button>
+         <button type="button" class="popup-room__close ">Закрыть</button>
+      </form>
+    </div>
+    <div class="overlay"></div>
+
+    <div class="popup-success">
+      <h2 class="popup-success__title">Это успех!</h2>
+      <p class="popup-success__info">Ваша заявка отправлена.<br> Ожидайте, мы свяжемся с вами<br> как только будет минутка.</p>
+      <button type="button" class="popup-success__close">Закрыть окно </button>
+    </div>
+    <div class="popup-failure">
+      <h2 class="popup-failure__title">Неудача</h2>
+      <p class="popup-failure__info">Что-то пошло не так.<br> Проверьте выделенные<br>красным поля формы.</p>
+      <button type="button" class="popup-failure__close">Ок</button>
+    </div>
+  <script src="js/scripts.min.js"></script>
+    </body>
+</html>
